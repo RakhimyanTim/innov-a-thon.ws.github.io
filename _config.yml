@@ -1,0 +1,85 @@
+title: Присоединяйтесь к Walking Startup
+description: Станьте партнером Walking Startup и зарабатывайте умные деньги в качестве независимого партнера.
+url: https://partner.walkingstartup.ru
+disqus_shortname: walkingstartup
+
+logo: https://partner.walkingstartup.ru/img/walking-startup-logo.png
+twitter:
+  username: walkingstartup
+
+facebook:
+  publisher: https://www.facebook.com/walkingstartup
+
+social:
+  links:
+    - https://www.facebook.com/walkingstartup
+    - https://plus.google.com/+walkingstartup
+    - https://twitter.com/walkingstartup
+    - https://www.youtube.com/c/walkingstartup
+    - https://www.linkedin.com/company/walkingstartup
+
+google_site_verification: ddawikBEFWqsfmvNEOLUKB47APegewmBRxF_OatqfaY
+company:
+  founded: Ноябрь 2017
+  team_size: 1
+  address: 450001, Уфа, Проспект Октября, 2
+  funding: 
+  
+gems:
+  - jekyll-sitemap
+  - jekyll-seo-tag
+  - jekyll-feed
+  - jekyll-paginate
+  - jekyll-archives
+
+paginate: 10
+paginate_path: "blog/:num/"
+blog_name: 
+blog_description: 
+permalink: pretty
+timezone: Asia/Yekaterinburg
+
+collections:
+  gallery:
+    name: Gallery
+    output: false
+  experts:
+    name: Experts
+    output: false
+  staff:
+    name: Team Members
+    _hide_content: true
+    output: false
+  authors:
+    name: Authors
+    output: false
+
+defaults:
+  -
+    scope:
+      path: ""
+      type: posts
+    values:
+      is_post: true
+      layout: post
+
+development:
+  google_analytics_key: "UA-108068030-2"
+  google_maps_embed_api_key: 
+  keen:
+    project_id: 
+    write_key: 
+    
+staging:
+  google_analytics_key: "UA-108068030-2"
+  google_maps_embed_api_key: 
+  keen:
+    project_id: 
+    write_key: 
+    
+production:
+  google_analytics_key: "UA-108068030-2"
+  google_maps_embed_api_key: 
+  keen:
+    project_id: 
+    write_key: 
